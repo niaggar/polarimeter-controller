@@ -1,0 +1,67 @@
+/measures/
+
+# Python bytecode
+__pycache__/
+.DS_Store
+*.py[cod]
+*$py.class
+
+# Distribución de paquetes
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos de entorno virtuales
+venv/
+ENV/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de prueba de cobertura
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+*.cover
+*.py,cover
+
+# Archivos de configuración del entorno
+*.env
+.env.local
+.env.production
+.env.test
+
+# Archivos relacionados con Jupyter
+.ipynb_checkpoints/
+
+# Archivos de caché de pytest
+.cache/
+
+# Bases de datos locales
+*.sqlite3
+
+# Archivos generados por logs o profiling
+*.log
+*.out
+*.err
+
+# Archivos relacionados con Docker
+docker-compose.override.yml
+
+# Archivos de lock (bloqueo) de Python
+Pipfile.lock
+poetry.lock
+
+# Archivos de configuración de CI/CD
+*.yml
+
